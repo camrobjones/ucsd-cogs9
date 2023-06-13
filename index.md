@@ -19,7 +19,7 @@ nav_order: 1
 # Introduction to Data Science
 
 {: .text-grey-dk-300 .fw-300 .lh-0 }
-## COGS 9 - UC San Diego - Prof. Kyle Shannon 
+## COGS 9 - UC San Diego - {{ variables.instructor.name }} 
 
 {{ variables.quarter }}
 {: .md-badge-purple }
@@ -50,7 +50,7 @@ Week one I try to take as many students from the **waitlist** as I can, please e
             <th style="width: 15%;"> Time </th>
             <th style="width: 15%;"> Location </th>
             <th style="width: 25%;"> Staff </th>
-            <th style="width: 15%;"> Materials </th>
+            <!-- <th style="width: 15%;"> Materials </th> -->
         </tr>
     </thead>
     <tbody>
@@ -60,8 +60,10 @@ Week one I try to take as many students from the **waitlist** as I can, please e
             <td> {{ ds.day }} </td>
             <td> {{ ds.time }} </td>
             <td> {{ ds.location }} </td>
-            <td> TA: {{ ds.ta }} <br/> IAs: {{ ds.ia }} </td>
-            <td> <a href="{{ ds.materials }}"> View </a> </td>
+            <td> TA: {{ ds.ta }} <br/>
+            <!-- IAs: {{ ds.ia }} -->
+            </td>
+            <!-- <td> <a href="{{ ds.materials }}"> View </a> </td> -->
         </tr>
         {% endfor %}
     </tbody>

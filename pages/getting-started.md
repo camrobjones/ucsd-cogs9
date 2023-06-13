@@ -9,11 +9,11 @@ permalink: /getting started
 {% assign variables = site.data[site.data_folder].variables %}
 # Getting Started
 
-1. Join the class Discord: **{{ variables.discord_link }}**
+1. Join the class Discord: <b><a href="{{ variables.discord_link }}" target="_blank">{{ variables.discord_link }}</a></b>
    - Use Discord to ask questions and get help from your fellow students, TAs, IAs, and myself
    - In-class polls (instead of iclickers) are done through Discord, as well as for in-class discussions
 2. Register for the class Gradescope
-   -  Gradescope link: **{{ variables.gradescope_link }}**
+   -  Gradescope link:  <b><a href="{{ variables.gradescope_link }}" target="_blank">{{ variables.gradescope_link }}</a></b>
    -  Entry code: **{{ variables.gradescope_entry_code }}**
    -  When registering for **Gradescope** you must include your **Student ID/PID** and **UCSD Email**.
 3. Start Reading 1, it is a very long reading, the longest by far!

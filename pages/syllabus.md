@@ -6,6 +6,7 @@ has_toc: true
 permalink: /syllabus/
 ---
 
+{% assign variables = site.data[site.data_folder].variables %}
 <h1>Syllabus</h1>
 <hr/>
 
@@ -34,14 +35,16 @@ permalink: /syllabus/
 |                                               | % of Total Grade |   200 Total Points |
 |:----------------------------------------------|:-----------------|:-------------------|
 | 3 Assignments                                 |               30 |      60 (20 each)  |
-| 1 Comprehensive Exam                          |               20 |               40   |
+| 1 Exam                                        |               20 |               40   |
 | 5 Reading Quizzes (lowest quiz score dropped) |               20 |      40 (10 each)  |
 | Final Project pt. 1                           |               10 |               20   |
-| Final Project pt. 2                           |               20 |               40   |
+| Final Project pt. 2 (report)                  |               10 |               20   |
+| Final Project pt. 2 (presentation)            |               10 |               20   |
 | Bonus                                         |              N/A |          5 bonus   |
 
-- **Final exam date**: No final exam, only a final group project.
-- Your letter grade will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are not rounded up, that’s why we have included 5 bonus points.
+- **Exam Date**: The exam will be held during Week 10 of class during lecture time.
+- **Final Presentation**: The final presentations will be held in-person on Friday August 4th, 3pm-6pm. Attendance is required.
+- Your **letter grade** will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are not rounded up, that’s why we have included 5 bonus points.
 
 ### Grades
 Grades are released on Gradescope often a week after the submission date, typically sooner. Ultimately it is your responsibility to check your final grade and get in touch if you believe there is a problem.
@@ -56,7 +59,7 @@ The regrade policy is here to protect students from serious issues in grading, n
 - We will get back to you within 48 hours with our final decision.
 
 ### Lecture Attendance
-Our goal is to make lectures and office hours worth your while to attend, e.g. we do in-class exercises. However, lecture attendance is not required. All lectures will be recorded. These will be made available to you (UCSD podcast).
+Our goal is to make lectures and office hours worth your while to attend, e.g. we do in-class exercises. Although lecture attendance is not required, there will be in-class quizzes worth 20% of your grade. There will be no opportunity to make-up these quizzes remotely, which is why we drop the lowest score. All lectures will be recorded. These will be made available to you (UCSD podcast).
 
 ### Section Attendance
 Section attendance is not mandatory, however, groups will be created within sections (usually week 2). Readings as well as lecture material will be reviewed in the section and it is to your benefit to go and ask questions.
@@ -79,6 +82,7 @@ The final project is a two-part report on how you would handle a complicated dat
 
 - One report submitted through Gradescope per group
 - One PDF submission per group (ensure all your names and PIDs are on the PDF)
+- One in-person final presentation discussing your group's project. Attendance is required.
 - Your team may resubmit as many times as you like before the deadline
 - Final part 1:
   - Late assignments have 5 points deducted within the first 24 hours, and an additional 5 points during the following 24 hours.
@@ -86,32 +90,23 @@ The final project is a two-part report on how you would handle a complicated dat
 - Final part 2:
   - No late submissions accepted
 
-Your final will include your data science question as well as all the nitty gritty, whys, and hows of the data science project you have chosen. You’ll write about your data science question, find some example data, summarize the data, explain how you would wrangle the data to answer your data science question, and describe the types of analysis you would carry out to answer your question of interest. You **WILL NOT** have to actually perform the analysis to answer the question, nor wrangle data, you only write about how you would perform the analysis and what you expect the outcomes will be.
+Your final will include your data science question as well as all the nitty gritty, whys, and hows of the data science project you have chosen. You’ll discuss your data science question, find some example data, summarize the data, explain how you would wrangle the data to answer your data science question, and describe the types of analysis you would carry out to answer your question of interest. You **WILL NOT** have to actually perform the analysis to answer the question, nor wrangle data, you only write about how you would perform the analysis and what you expect the outcomes will be.
 
 ---
 To reiterate, your team will make a copy of my Google document template and work on that copy together. Make sure to read all the instructions. Your team may resubmit as many times as you want up until the submission deadline. You will receive feedback along with a grade typically within a week for part 1. Feedback from us should be incorporated into part 2 of the final.
 ---
 
 ### Exam
-The exam is comprehensive and will cover the lectures (and possibly guest lectures). TAs/IAs will provide a live or recorded exam review session before the exam.
-
-- One multiple-choice exam
-- Available for 72 hours on Gradescope
-- You have 2 continuous hours to finish once started
-- One attempt
-- Open notes, but you must work alone
-- Taken and submitted through Gradescope
-
-No late exams are permitted, except for extenuating circumstances. Please reach out to staff as early as possible if you know something will prevent you from taking the exam on time. The later you wait... the less likely we are to accept your request.
+The exam is comprehensive and will cover the lectures (and possibly guest lectures). TAs/IAs will provide an exam review session before the exam. The exam will take place during normal lecture time in class and will last 60 minutes. The exam is closed book (no notes, internet, or LLMs) and you must work alone.
 
 ### Readings & Quizzes
 Quizzes cover the reading material assigned, e.g. Quiz 1 only covers material from reading 1 (R1).
 
 - Five multiple choice (10 questions) quizzes
-- Available for 48 hours
-- You have 1 hour to finish
+- Taken in the first 15 minutes of class on Canvas
+- No specific quiz day but will be announced in advance
 - One attempt
-- Open notes, but you must work alone.
+- No notes, internet, or LLMs.
 - Taken and submitted through Gradescope
 
 Your lowest quiz score will be dropped when calculating your final grade. Late reading quizzes will be accepted up to 48 hours, however, they will receive ½ credit.
@@ -146,7 +141,7 @@ This class will be a welcoming, inclusive, and harassment-free experience for ev
 
 At all times, you should be considerate and respectful. Always refrain from demeaning, discriminatory, or harassing behavior and speech. Last of all, take care of each other.
 
-If you have a concern, please speak with Kyle or your TAs. If you are uncomfortable doing so, that’s ok! The [OPHD](https://blink.ucsd.edu/HR/policies/sexual/OPHD.html) (Office for the Prevention of Sexual Harassment and Discrimination) and [CARE](https://care.ucsd.edu/) (confidential advocacy and education office for sexual violence and gender-based violence) are wonderful resources on campus.
+If you have a concern, please speak with {{ variables.instructor.firstname }} or your TAs. If you are uncomfortable doing so, that’s ok! The [OPHD](https://blink.ucsd.edu/HR/policies/sexual/OPHD.html) (Office for the Prevention of Sexual Harassment and Discrimination) and [CARE](https://care.ucsd.edu/) (confidential advocacy and education office for sexual violence and gender-based violence) are wonderful resources on campus.
 
 
 ### Academic Integrity
@@ -159,7 +154,7 @@ We anticipate you all doing well in this course; however, if you are feeling los
 Cheating and plagiarism have been and will be strongly penalized. If, for whatever reason, this website, or Gradescope is down, or something else prohibits you from being able to turn in an assignment on time, immediately contact course staff via email (attach your assignment/quiz/exam answers) or else it will be graded as late.
 
 ### Disability​ ​Access
-Students requesting accommodations due to a disability must provide a current Authorization for Accommodation (AFA) letter. These letters are issued by the Office for Students with Disabilities (OSD), which is located in University Center 202 behind Center Hall. To arrange accommodations please contact Kyle [kshannon@ucsd.edu](kshannon@ucsd.edu) privately, I will loop in the appropriate course staff to act as a liaison.
+Students requesting accommodations due to a disability must provide a current Authorization for Accommodation (AFA) letter. These letters are issued by the Office for Students with Disabilities (OSD), which is located in University Center 202 behind Center Hall. To arrange accommodations please contact {{ variables.instructor.firstname }} ([{{ variables.instructor.email }}]({{ variables.instructor.email }})) privately, I will loop in the appropriate course staff to act as a liaison.
 
 Contacting the OSD can help you further:
 858.534.4382 (phone)
@@ -170,10 +165,10 @@ Contacting the OSD can help you further:
 **How to Get Your Question(s) Answered and/or Provide Feedback**
 It’s great that we have many ways to communicate, but it can get tricky to figure out who to contact or where your question belongs, or when to expect a response. These guidelines are to help you get your question answered as quickly as possible and to ensure that we’re able to get to everyone’s questions.
 
-That said, to ensure that we’re respecting their time, TAs and IAs have been instructed they’re only obligated to answer questions between normal working hours (M-F 9am-5pm). However, I know that’s not when you may be doing your work. So, please feel free to reach out whenever is best for you while knowing that, you may not get a response until the next day. As such, do your best not to wait until the last minute to ask a question. If there is an emergency and you need to contact staff immediately, email Kyle and put "EMERGENCY-COGS9" in the subject line. I will get back to you ASAP.
+That said, to ensure that we’re respecting their time, TAs and IAs have been instructed they’re only obligated to answer questions between normal working hours (M-F 9am-5pm). However, I know that’s not when you may be doing your work. So, please feel free to reach out whenever is best for you while knowing that, you may not get a response until the next day. As such, do your best not to wait until the last minute to ask a question. If there is an emergency and you need to contact staff immediately, email {{ variables.instructor.firstname }} and put "EMERGENCY-COGS9" in the subject line. I will get back to you ASAP.
 
 If you have…
 - **questions about course content** - these are awesome! We want everyone to see them and have their questions answered, please post questions, or ask during class/office hours.
 - **questions about course logistics** - first, check the syllabus. If the answer is not there, ask in Section, ask a classmate, or ask during class/office hours.
-- **something super cool to share related to class** - feel free to email Kyle [kshannon@ucsd.edu](kshannon@ucsd.edu)) or come to office hours. Be sure to include COGS9 in the email subject line and your full name in your message.
-- **something you want to talk about in-depth** - meet in person/digitally during office hours or schedule a time to meet 1:1 by email. Be sure to include COGS9 in the email subject line. Or it may be missed. [kshannon@ucsd.edu](kshannon@ucsd.edu). 
+- **something super cool to share related to class** - feel free to email {{ variables.instructor.firstname }} ([{{ variables.instructor.email }}]({{ variables.instructor.email }})) or come to office hours. Be sure to include COGS9 in the email subject line and your full name in your message.
+- **something you want to talk about in-depth** - meet in person/digitally during office hours or schedule a time to meet 1:1 by email ([{{ variables.instructor.email }}]({{ variables.instructor.email }})). Be sure to include COGS9 in the email subject line. Or it may be missed. 

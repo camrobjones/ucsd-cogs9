@@ -1,0 +1,44 @@
+# Welcome section
+quarter: Summer Session 1 2023
+building: RWAC 0103
+timings: MTuWTh 3:30-4:50PM
+discord_link: https://discord.gg/9byBWUpm4B # expires never (remove this at end of quarter)
+gradescope_link: https://www.gradescope.com/courses/549981
+gradescope_entry_code: 3JV6J7
+cogsadvising: cogsadvising@ucsd.edu
+
+
+
+instructor:
+  name: Cameron Jones
+  firstname: Cameron
+  email: cameron@ucsd.edu
+  type: Instructor
+  office_hours:
+    - day: Thu
+      time: 2:30-3:30PM
+      location: CSB 215 / Zoom
+      zoom_link: https://ucsd.zoom.us/j/9933754570
+      zoom_pw:
+
+teaching_assistants:
+  - name: Vineeth Chelur
+    email: vrchelur@ucsd.edu
+    type: TA
+    office_hours:
+      - day: Tue
+        time: 9:00-10:00AM
+        location: CSB 114 / Zoom
+        zoom_link: https://ucsd.zoom.us/j/3037643310
+        zoom_pw:
+
+instructional_assistants:
+
+discussion_sections:
+  - section: A01
+    day: TuTh
+    time: 5:00-5:50PM
+    location: RWAC 0103
+    ta: Vineeth
+    ia:
+    materials: https://github.com/kunalrustagi08/cogs-9-a01
