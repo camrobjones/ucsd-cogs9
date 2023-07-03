@@ -1,11 +1,11 @@
 date,title,label,link
 2023-07-03,What is Data Science,LECT,https://camrobjones.com/static/cogs9/01_Intro_DS.pdf
-2023-07-04,Independence Day,CNCL,
-2023-07-05,Ethics,LECT,
-2023-07-06,Data Science Questions,LECT,
+2023-07-04,NO CLASS — Independence Day,CNCL,
+2023-07-05,Ethics,LECT,https://camrobjones.com/static/cogs9/02_Ethics.pdf
+2023-07-06,Data Science Questions,LECT,https://camrobjones.com/static/cogs9/03_Data_Science_Questions.pdf
+2023-07-06,Quiz 1,QUIZ,https://canvas.ucsd.edu/courses/47531/quizzes/142463
 2023-07-10,Reproducibility & Bias,LECT,
 2023-07-11,Data,LECT,
-2023-07-11,Quiz 1,QUIZ,
 2023-07-12,Getting Data,LECT,
 2023-07-13,Data Wrangling,LECT,
 2023-07-17,Programming for Data Science,LECT,
