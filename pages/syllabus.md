@@ -32,19 +32,19 @@ permalink: /syllabus/
 ## Grading & Attendance
 ### Grading
 
-|                                               | % of Total Grade |   200 Total Points |
+|                                               | % of Total Grade |   400 Total Points |
 |:----------------------------------------------|:-----------------|:-------------------|
-| 3 Assignments                                 |               30 |      60 (20 each)  |
-| 1 Exam                                        |               20 |               40   |
-| 5 Reading Quizzes (lowest quiz score dropped) |               20 |      40 (10 each)  |
-| Final Project pt. 1                           |               10 |               20   |
-| Final Project pt. 2 (report)                  |               10 |               20   |
-| Final Project pt. 2 (presentation)            |               10 |               20   |
-| Bonus                                         |              N/A |          5 bonus   |
+| 3 Assignments                                 |               30 |     120 (40 each)  |
+| 1 Exam                                        |               20 |               80   |
+| 5 Reading Quizzes (lowest quiz score dropped) |               20 |      80 (20 each)  |
+| Final Project pt. 1                           |               10 |               40   |
+| Final Project pt. 2 (report)                  |               10 |               40   |
+| Final Project pt. 2 (presentation)            |               10 |               40   |
+| Bonus                                         |              N/A |          10 bonus   |
 
 - **Exam Date**: The exam will be held during Week 10 of class during lecture time.
 - **Final Presentation**: The final presentations will be held in-person on Friday August 4th, 3pm-6pm. Attendance is required.
-- Your **letter grade** will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are not rounded up, that’s why we have included 5 bonus points.
+- Your **letter grade** will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are not rounded up, that’s why we have included 10 bonus points.
 
 ### Grades
 Grades are released on Gradescope often a week after the submission date, typically sooner. Ultimately it is your responsibility to check your final grade and get in touch if you believe there is a problem.
