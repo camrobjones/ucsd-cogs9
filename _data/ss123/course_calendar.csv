@@ -4,8 +4,8 @@ date,title,label,link
 2023-07-05,Ethics,LECT,https://camrobjones.com/static/cogs9/02_Ethics.pdf
 2023-07-06,Data Science Questions,LECT,https://camrobjones.com/static/cogs9/03_Data_Science_Questions.pdf
 2023-07-10,Reproducibility & Bias,LECT,https://camrobjones.com/static/cogs9/04_Reproducibility.pdf
-2023-07-11,Data,LECT,
-2023-07-12,Getting Data,LECT,
+2023-07-11,Data,LECT,https://camrobjones.com/static/cogs9/05_Data.pdf
+2023-07-12,Getting Data,LECT,https://camrobjones.com/static/cogs9/06_Getting_Data.pdf
 2023-07-12,Quiz 1,QUIZ,https://canvas.ucsd.edu/courses/47531/quizzes/142463
 2023-07-13,Data Wrangling,LECT,
 2023-07-17,Programming for Data Science,LECT,
@@ -14,16 +14,16 @@ date,title,label,link
 2023-07-19,Exploratory Data Analysis,LECT,
 2023-07-19,Quiz 3,QUIZ,
 2023-07-20,Communicating Data Science,LECT,
-2023-07-20,Assignment 1 due,ASSG,
+2023-07-20,Assignment 1 due,ASSG,https://www.gradescope.com/courses/549981/
 2023-07-24,Inferential Analysis,LECT,
-2023-07-24,Final Project Part 1 due,PROJ,
+2023-07-24,Final Project Part 1 due,PROJ,https://www.gradescope.com/courses/549981/
 2023-07-24,[Extra Credit] Team evaluation due,EXTR,
 2023-07-25,Machine Learning I,LECT,
 2023-07-25,Quiz 4,QUIZ,
 2023-07-26,Machine Learning II,LECT,
 2023-07-26,Assignment 2 due,ASSG,
 2023-07-27,Guest Lec. (prerecorded not in-class),GLCT,https://youtu.be/IBSyWraGaTM
-2023-07-27,Assignment 3 due,ASSG,
+2023-07-31,Assignment 3 due,ASSG,
 2023-07-31,Text & Geospatial Analysis,LECT,
 2023-08-01,Giving a Data Science Talk,LECT,
 2023-08-01,Quiz 5,QUIZ,
