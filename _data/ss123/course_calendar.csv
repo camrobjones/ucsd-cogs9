@@ -8,11 +8,11 @@ date,title,label,link
 2023-07-12,Getting Data,LECT,https://camrobjones.com/static/cogs9/06_Getting_Data.pdf
 2023-07-12,Quiz 1,QUIZ,https://canvas.ucsd.edu/courses/47531/quizzes/142463
 2023-07-13,Data Wrangling,LECT,https://camrobjones.com/static/cogs9/07_Data_Wrangling.pdf
-2023-07-17,Programming for Data Science,LECT,
-2023-07-17,Quiz 2,QUIZ,
+2023-07-17,Programming for Data Science,LECT,https://camrobjones.com/static/cogs9/08_Programming.pdf
+2023-07-17,Quiz 2,QUIZ,https://canvas.ucsd.edu/courses/47531/quizzes/143231
 2023-07-18,Data Viz & Descriptive Analysis,LECT,
 2023-07-19,Exploratory Data Analysis,LECT,
-2023-07-19,Quiz 3,QUIZ,
+2023-07-19,Quiz 3,QUIZ,https://canvas.ucsd.edu/courses/47531/quizzes/143233
 2023-07-20,Communicating Data Science,LECT,
 2023-07-20,Assignment 1 due,ASSG,https://www.gradescope.com/courses/549981/
 2023-07-24,Inferential Analysis,LECT,
@@ -27,7 +27,7 @@ date,title,label,link
 2023-07-31,Text & Geospatial Analysis,LECT,
 2023-08-01,Giving a Data Science Talk,LECT,
 2023-08-01,Quiz 5,QUIZ,
-2023-08-02,Algorithms & Computability,LECT,
+2023-08-02,In-class Exam,EXAM,
 2023-08-03,Future of Data Sci & Jobs,LECT,
 2023-08-04,[Extra Credit] CAPEs due,EXTR,
 2023-08-04,Final Presentations,EXAM,
