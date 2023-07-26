@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Final Project Part 2
+title: Final Presentation
 has_children: false
 parent: Final Project
-nav_order: 3
+nav_order: 4
 permalink: /final-group-project/presentation
 ---
 

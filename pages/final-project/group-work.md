@@ -3,7 +3,7 @@ layout: default
 title: Group Work Primer
 has_children: false
 parent: Final Project
-nav_order: 4
+nav_order: 5
 permalink: /final-group-project/group-work-primer
 ---
 
